@@ -14,8 +14,8 @@ kan_temperature_prediction/
 │   │   └── ...
 │   └── processed/       # Consolidated and cleaned data
 │       └── climate2.xlsx
-├── notebooks/          
-│   └── MaxTemp_KAN.ipynb
+├── src/          
+│   └── MaxTemp_KAN.py
 ├── models/              # Trained models
 │   └── kan_model.pkl
 ├── assets/              # Plots and figures
@@ -69,7 +69,7 @@ kan_temperature_prediction/
 
 - **Test MAE**: X.X °C  
 - **States Analyzed**: Estado de México, CDMX, Jalisco, Veracruz, Puebla, Guanajuato, Nuevo León  
-- **Average Predicted Tmax (Jan–Jun 2028)**: See notebook `6_2028_predictions.ipynb`
+- **Average Predicted Tmax (Jan–Jun 2028)**: See `MaxTemp_KAN.py`
 
 ---
 
