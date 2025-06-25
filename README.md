@@ -12,17 +12,17 @@ kan_temperature_prediction/
 │   ├── raw/             # Original files downloaded from SMN
 │   │   ├── climate_2014_01.xlsx
 │   │   └── ...
-│   └── processed/       # Consolidated and cleaned data
+│   └── processed/       
 │       └── climate2.xlsx
 ├── src/          
 │   └── MaxTemp_KAN.py
-├── models/              # Trained models
+├── models/              
 │   └── kan_model.pkl
-├── assets/              # Plots and figures
-│   ├── statistical_summary.png
-│   ├── correlation_matrix.png
-│   └── tmax_2028_map.png
-├── docs/                # Documentation and references
+├── assets/              
+│   ├── maxtemp_distribution.png
+│   ├── maxtemp_geo.png
+│   └── maxtemp_evolution.png
+├── docs/                
 │   └── ProyectoFinal_MODELOS.pdf
 ├── requirements.txt
 ├── README.md
