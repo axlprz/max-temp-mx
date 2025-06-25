@@ -73,17 +73,6 @@ kan_temperature_prediction/
 
 ---
 
-## Getting Started
-
-```bash
-git clone https://github.com/yourusername/kan_temperature_prediction.git
-cd kan_temperature_prediction
-pip install -r requirements.txt
-jupyter notebook notebooks/
-```
-
----
-
 ## Future Work
 
 - Incorporate precipitation and humidity variables.  
