@@ -15,15 +15,11 @@ max-temp-mx/
 │   └── processed/       
 │       └── climate2.xlsx
 ├── src/          
-│   └── MaxTemp_KAN.py
-├── models/              
-│   └── kan_model.pkl
+│   └── maxtemp_kan.py
 ├── assets/              
 │   ├── maxtemp_distribution.png
 │   ├── maxtemp_geo.png
 │   └── maxtemp_evolution.png
-├── docs/                
-│   └── ProyectoFinal_MODELOS.pdf
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -69,7 +65,7 @@ max-temp-mx/
 
 - **Test MAE**: X.X °C  
 - **States Analyzed**: Estado de México, CDMX, Jalisco, Veracruz, Puebla, Guanajuato, Nuevo León  
-- **Average Predicted Tmax (Jan–Jun 2028)**: See `MaxTemp_KAN.py`
+- **Average Predicted Tmax (Jan–Jun 2028)**: See `maxtemp_kan.py`
 
 ---
 
