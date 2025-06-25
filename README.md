@@ -7,7 +7,7 @@ This project implements a Kolmogorov-Arnold Network (KAN) to predict the average
 ## Project Structure
 
 ```text
-kan_temperature_prediction/
+max-temp-mx/
 ├── data/
 │   ├── raw/             # Original files downloaded from SMN
 │   │   ├── climate_2014_01.xlsx
